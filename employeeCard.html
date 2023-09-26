@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Employee Card</title>
+</head>
+
+<body class="m-0 p-0 h-screen flex justify-center items-center bg-gray-600 text-gray-100">
+    <main class="flex flex-col w-2/3  border rounded-md bg-white">
+        <section class="title bg-gray-300 px-4 py-1 capitalize text-gray-900 rounded-tl-md rounded-tr-md">
+            <h1>The title of the card here</h1>
+        </section>
+        <section class="user-info">
+            <section class="review flex justify-between px-4 py-3 items-center border-b">
+                <div class="review-tag bg-orange-600 px-2 rounded-xl uppercase text-sm">Under Review</div>
+                <div class="date text-gray-900 ">May 14, 1988</div>
+            </section>
+            <section class="comments px-4 py-3 text-gray-900">
+                <div class="comment px-2 py-2 bg-gray-300 rounded-lg">Here is a short comment about this employee.</div>
+            </section>
+        </section>
+        <section class="user-picture-name px-4 py-3 text-gray-900 bg-gray-300 rounded-bl-md rounded-br-md">
+            <h1 class="uppercase text-gray-400 font-bold">Employee</h1>
+            <section class="flex my-3">
+                <div class="bg-blue-800 h-12 w-12 mx-2 rounded-full flex justify-center items-center ">VG</div>
+                <div>
+                    <div class="name font-bold capitalize">Victor Gonzalez</div>
+                    <div class="role italic">Instructor</div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
